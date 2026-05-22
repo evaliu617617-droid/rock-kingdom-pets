@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffb7c5"/>
+      <stop offset="100%" style="stop-color:#ff6b81"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景圆形 -->
+  <circle cx="256" cy="256" r="240" fill="url(#bg)"/>
+  
+  <!-- 狮子头部 -->
+  <circle cx="256" cy="240" r="140" fill="#FFF5E6" stroke="#FFB7C5" stroke-width="4"/>
+  
+  <!-- 狮子鬃毛 -->
+  <path d="M150 200 Q100 150 130 100 Q180 130 200 180" fill="#FFD700" stroke="#FFB7C5" stroke-width="2"/>
+  <path d="M362 200 Q412 150 382 100 Q332 130 312 180" fill="#FFD700" stroke="#FFB7C5" stroke-width="2"/>
+  <path d="M160 250 Q100 250 110 310 Q150 300 180 280" fill="#FFD700" stroke="#FFB7C5" stroke-width="2"/>
+  <path d="M352 250 Q412 250 402 310 Q362 300 332 280" fill="#FFD700" stroke="#FFB7C5" stroke-width="2"/>
+  <path d="M180 310 Q160 360 200 380 Q220 340 240 320" fill="#FFD700" stroke="#FFB7C5" stroke-width="2"/>
+  <path d="M332 310 Q352 360 312 380 Q292 340 272 320" fill="#FFD700" stroke="#FFB7C5" stroke-width="2"/>
+  
+  <!-- 狮子耳朵 -->
+  <circle cx="180" cy="160" r="25" fill="#FFD700" stroke="#FFB7C5" stroke-width="3"/>
+  <circle cx="332" cy="160" r="25" fill="#FFD700" stroke="#FFB7C5" stroke-width="3"/>
+  <circle cx="180" cy="160" r="12" fill="#FFB7C5"/>
+  <circle cx="332" cy="160" r="12" fill="#FFB7C5"/>
+  
+  <!-- 狮子眼睛 -->
+  <ellipse cx="216" cy="230" rx="18" ry="22" fill="#4A4A4A"/>
+  <ellipse cx="296" cy="230" rx="18" ry="22" fill="#4A4A4A"/>
+  <circle cx="220" cy="225" r="8" fill="white"/>
+  <circle cx="300" cy="225" r="8" fill="white"/>
+  
+  <!-- 狮子鼻子 -->
+  <ellipse cx="256" cy="275" rx="20" ry="16" fill="#FFB7C5"/>
+  <ellipse cx="256" cy="272" rx="12" ry="8" fill="#FF6B81"/>
+  
+  <!-- 狮子嘴巴 -->
+  <path d="M236 295 Q256 310 276 295" stroke="#4A4A4A" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- 狮子胡须 -->
+  <line x1="180" y1="280" x2="200" y2="285" stroke="#FFB7C5" stroke-width="2" stroke-linecap="round"/>
+  <line x1="175" y1="295" x2="195" y2="295" stroke="#FFB7C5" stroke-width="2" stroke-linecap="round"/>
+  <line x1="180" y1="310" x2="200" y2="305" stroke="#FFB7C5" stroke-width="2" stroke-linecap="round"/>
+  <line x1="332" y1="280" x2="312" y2="285" stroke="#FFB7C5" stroke-width="2" stroke-linecap="round"/>
+  <line x1="337" y1="295" x2="317" y2="295" stroke="#FFB7C5" stroke-width="2" stroke-linecap="round"/>
+  <line x1="332" y1="310" x2="312" y2="305" stroke="#FFB7C5" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- 皇冠 -->
+  <path d="M200 150 L220 110 L240 140 L256 90 L272 140 L292 110 L312 150 Z" fill="#FFD700" stroke="#FFB7C5" stroke-width="2"/>
+  <circle cx="256" cy="125" r="8" fill="#FF6B81"/>
+  <circle cx="220" cy="130" r="6" fill="#FFB7C5"/>
+  <circle cx="292" cy="130" r="6" fill="#FFB7C5"/>
+  <circle cx="240" cy="140" r="5" fill="#FFB7C5"/>
+  <circle cx="272" cy="140" r="5" fill="#FFB7C5"/>
+  
+  <!-- 星星装饰 -->
+  <text x="100" y="120" font-size="30">✨</text>
+  <text x="380" y="380" font-size="30">✨</text>
+  <text x="420" y="200" font-size="24">⭐</text>
+  <text x="80" y="350" font-size="24">⭐</text>
+</svg>
